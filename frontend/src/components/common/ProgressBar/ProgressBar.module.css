@@ -1,0 +1,93 @@
+@import '../../../styles/tokens.css';
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+}
+
+.track {
+  flex: 1;
+  background: var(--gray-200);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  position: relative;
+}
+
+.track.sm {
+  height: 6px;
+}
+
+.track.md {
+  height: 8px;
+}
+
+.track.lg {
+  height: 12px;
+}
+
+.fill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  transition: width var(--transition-slow);
+  position: relative;
+  overflow: hidden;
+}
+
+.fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  animation: shimmer 2s infinite;
+}
+
+.fill.primary {
+  background: linear-gradient(90deg, var(--primary-500), var(--primary-600));
+}
+
+.fill.reading {
+  background: linear-gradient(90deg, var(--reading-primary), var(--reading-dark));
+}
+
+.fill.listening {
+  background: linear-gradient(90deg, var(--listening-primary), var(--listening-dark));
+}
+
+.fill.writing {
+  background: linear-gradient(90deg, var(--writing-primary), var(--writing-dark));
+}
+
+.fill.speaking {
+  background: linear-gradient(90deg, var(--speaking-primary), var(--speaking-dark));
+}
+
+.fill.success {
+  background: linear-gradient(90deg, var(--success-500), var(--success-600));
+}
+
+.label {
+  font-size: var(--text-sm);
+  font-weight: var(--font-semibold);
+  color: var(--gray-700);
+  min-width: 40px;
+  text-align: right;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

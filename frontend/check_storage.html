@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check LocalStorage</title>
+</head>
+<body>
+    <h1>LocalStorage Completed Lessons:</h1>
+    <pre id="output"></pre>
+    <button onclick="clearStorage()">Clear Completed Lessons</button>
+    
+    <script>
+        const completed = localStorage.getItem('completedLessons');
+        document.getElementById('output').textContent = completed || 'No completed lessons';
+        
+        function clearStorage() {
+            localStorage.removeItem('completedLessons');
+            alert('Cleared! Refresh the page.');
+            location.reload();
+        }
+    </script>
+</body>
+</html>

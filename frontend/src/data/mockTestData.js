@@ -1,0 +1,223 @@
+// Comprehensive IELTS Mock Test Data with 10 questions per module
+
+export const listeningModule = {
+  id: 'listening',
+  name: 'Listening',
+  icon: '🎧',
+  duration: 30,
+  description: 'Conversation with 10 questions',
+  color: 'var(--listening-primary)',
+  sections: [
+    {
+      id: 1,
+      title: 'Section 1 - Conversation about accommodation',
+      audioUrl: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
+      transcript: `Agent: Good morning, City Apartments. How can I help you?
+Student: Hi, I'm looking for a flat to rent near the university. I'm starting my course in September.
+Agent: Okay, let me check what we have available. What's your budget?
+Student: Around £800 per month, including bills if possible.
+Agent: Alright. I have a nice two-bedroom flat on Park Street, number 42, available from September 1st. It's £750 per month plus bills.
+Student: That sounds good. How far is it from the university?
+Agent: About a 15-minute walk, or you can take bus number 23 which runs every 10 minutes.
+Student: Perfect. What about facilities? Does it have internet?
+Agent: Yes, high-speed WiFi is included. There's also a shared laundry room in the basement.
+Student: Excellent. And parking?
+Agent: There's street parking available, but you'll need to get a resident's permit from the council. That costs about £120 per year.
+Student: I see. When can I view it?
+Agent: How about this Thursday at 2:30 PM?
+Student: Thursday works for me. Can you send me the address and details by email?
+Agent: Of course. What's your email address?
+Student: It's sarah.mitchell@email.com
+Agent: Got it. I'll send that over today. See you Thursday!`,
+      questions: [
+        { id: 1, type: 'fill', question: 'The student is looking for accommodation near the ___'},
+        { id: 2, type: 'fill', question: 'The monthly rent for the flat is £___'},
+        { id: 3, type: 'fill', question: 'The flat is located on ___ Street'},
+        { id: 4, type: 'fill', question: 'The flat number is ___'},
+        { id: 5, type: 'fill', question: 'Bus number ___ goes to the university'},
+        { id: 6, type: 'fill', question: 'The viewing is scheduled for ___ (day)'},
+        { id: 7, type: 'fill', question: 'The viewing time is at ___'},
+        { id: 8, type: 'fill', question: "The student's email is ___"},
+        { id: 9, type: 'mcq', question: 'What is included in the rent?', options: ['WiFi', 'Parking', 'Food', 'Furniture']},
+        { id: 10, type: 'mcq', question: 'Where is the laundry room?', options: ['Basement', 'Ground floor', 'First floor', 'Outside']},
+      ]
+    },
+    {
+      id: 2,
+      title: 'Section 2 - Campus tour information',
+      audioUrl: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
+      transcript: `Welcome to Riverside University. I'm David, and I'll be your tour guide today. We'll start at the main library, which is the tallest building on campus with 8 floors. It's open 24 hours during exam periods. Next to it is the Student Union building where you can find cafes, shops, and the student support office on the second floor. The medical center is located in Building C, near the sports complex. If you need to see a doctor, appointments can be booked online or by calling extension 5542. The sports facilities include an Olympic-size swimming pool, a fully-equipped gym, and tennis courts. Membership for students costs £45 per term. The science laboratories are in the east wing, and the arts studios are in the west wing. All buildings are connected by covered walkways, so you can get around easily in bad weather.`,
+      questions: [
+        { id: 11, type: 'fill', question: 'The tour guide name is ___' },
+        { id: 12, type: 'fill', question: 'The main library has ___ floors' },
+        { id: 13, type: 'fill', question: 'The student support office is on the ___ floor' },
+        { id: 14, type: 'fill', question: 'To book a medical appointment call extension ___' },
+        { id: 15, type: 'fill', question: 'Sports membership costs £___ per term' },
+        { id: 16, type: 'mcq', question: 'When is the library open 24 hours?', options: ['Always', 'During exams', 'Weekends', 'Never'] },
+        { id: 17, type: 'mcq', question: 'Where is the medical center?', options: ['Building A', 'Building B', 'Building C', 'Building D'] },
+        { id: 18, type: 'mcq', question: 'What size is the swimming pool?', options: ['Standard', 'Olympic', 'Small', 'Large'] },
+        { id: 19, type: 'mcq', question: 'Where are the science laboratories?', options: ['East wing', 'West wing', 'North wing', 'South wing'] },
+        { id: 20, type: 'mcq', question: 'What connects all buildings?', options: ['Tunnels', 'Bridges', 'Covered walkways', 'Underground passages'] }
+      ]
+    },
+    {
+      id: 3,
+      title: 'Section 3 - Discussion about research project',
+      audioUrl: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
+      transcript: `Professor: So, how's your research project coming along?
+Student: Pretty well, actually. I've finished the literature review and I'm ready to start collecting data.
+Professor: Good. Remind me, what's your research question again?
+Student: I'm investigating the impact of social media use on sleep patterns in university students aged 18-25.
+Professor: Right, and what methodology are you using?
+Student: I'm using a mixed-methods approach - online surveys for quantitative data and follow-up interviews for qualitative insights.
+Professor: How many participants do you need?
+Student: I'm aiming for 200 survey responses and 20 in-depth interviews.
+Professor: That sounds reasonable. What about ethics approval?
+Student: I submitted the application last month and got approval last week, so I can start next Monday.
+Professor: Excellent. Make sure you keep detailed records of your data collection process. When's your deadline?
+Student: The final report is due on December 15th, so I have about 10 weeks.
+Professor: You'll need to analyze the data and write it up, so start as soon as possible. Have you thought about your data analysis software?
+Student: Yes, I'll use SPSS for the quantitative data and NVivo for coding the interviews.`,
+      questions: [
+        { id: 21, type: 'fill', question: 'The student has finished the ___ review'},
+        { id: 22, type: 'fill', question: 'The research focuses on students aged ___ to 25'},
+        { id: 23, type: 'fill', question: 'The student needs ___ survey responses'},
+        { id: 24, type: 'fill', question: 'The student will conduct ___ interviews'},
+        { id: 25, type: 'fill', question: 'The final report is due on December ___'},
+        { id: 26, type: 'mcq', question: 'What is the research about?', options: ['Sleep patterns', 'Study habits', 'Exercise', 'Diet']},
+        { id: 27, type: 'mcq', question: 'What methodology is being used?', options: ['Qualitative only', 'Quantitative only', 'Mixed-methods', 'Experimental']},
+        { id: 28, type: 'mcq', question: 'When did the student get ethics approval?', options: ['Today', 'Yesterday', 'Last week', 'Last month']},
+        { id: 29, type: 'mcq', question: 'Which software will be used for quantitative analysis?', options: ['Excel', 'SPSS', 'NVivo', 'R']},
+        { id: 30, type: 'mcq', question: 'Which software will be used for qualitative analysis?', options: ['SPSS', 'Excel', 'NVivo', 'Atlas.ti']},
+      ]
+    },
+    {
+      id: 4,
+      title: 'Section 4 - Lecture on renewable energy',
+      audioUrl: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3',
+      transcript: `Good morning, everyone. Today's lecture is about renewable energy and its role in combating climate change. Let's start with solar power. Solar panels convert sunlight directly into electricity through photovoltaic cells. The efficiency of modern panels has increased to about 22%, making them much more cost-effective than they were a decade ago. Wind energy is another major source. Wind turbines can now generate up to 15 megawatts each, enough to power 5,000 homes. However, wind energy has some limitations - it's intermittent and depends on weather conditions. Hydroelectric power has been used for over a century. It's highly reliable and can generate large amounts of electricity, but building dams can have significant environmental impacts. Geothermal energy taps into the Earth's internal heat. It's particularly effective in volcanic regions like Iceland, where it provides over 25% of the country's electricity. Finally, biomass energy involves burning organic materials. While technically renewable, it still produces carbon emissions, so it's not as clean as other sources. The key challenge for all renewable energy is storage. Battery technology is improving, with lithium-ion batteries now capable of storing energy for 8-10 hours. Looking ahead, experts predict that by 2050, renewable energy could supply 85% of global electricity demand if current investment trends continue.`,
+      questions: [
+        { id: 31, type: 'fill', question: 'Modern solar panels have an efficiency of about ___'},
+        { id: 32, type: 'fill', question: 'A single wind turbine can power ___ homes'},
+        { id: 33, type: 'fill', question: 'In Iceland, geothermal provides over ___% of electricity'},
+        { id: 34, type: 'fill', question: 'Lithium-ion batteries can store energy for ___ to 10 hours'},
+        { id: 35, type: 'fill', question: 'By 2050, renewables could supply ___% of global electricity'},
+        { id: 36, type: 'mcq', question: 'What converts sunlight to electricity?', options: ['Batteries', 'Photovoltaic cells', 'Wind turbines', 'Generators']},
+        { id: 37, type: 'mcq', question: 'What is a limitation of wind energy?', options: ['Too expensive', 'Intermittent', 'Polluting', 'Dangerous']},
+        { id: 38, type: 'mcq', question: 'How long has hydroelectric power been used?', options: ['10 years', '50 years', 'Over a century', '500 years']},
+        { id: 39, type: 'mcq', question: 'What is the main challenge for renewable energy?', options: ['Cost', 'Storage', 'Size', 'Noise']},
+        { id: 40, type: 'mcq', question: 'Which renewable source still produces carbon emissions?', options: ['Solar', 'Wind', 'Biomass', 'Geothermal']},
+      ]
+    }
+  ]
+};
+
+export const readingModule = {
+  id: 'reading',
+  name: 'Reading',
+  icon: '📖',
+  duration: 60,
+  description: 'Academic passage with 10 questions',
+  color: 'var(--reading-primary)',
+  passages: [
+    {
+      id: 1,
+      title: 'Passage 1: The History of Coffee',
+      content: `Coffee is one of the world's most popular beverages, with over 2.25 billion cups consumed daily. The coffee plant, Coffea, originated in Ethiopia, where legend says a goat herder named Kaldi discovered it around 850 AD after noticing his goats became energetic after eating the berries.
+
+From Ethiopia, coffee spread to the Arabian Peninsula. By the 15th century, coffee was being grown in Yemen, and Sufi monks drank it to stay awake during long prayer sessions. Coffee houses, called qahveh khaneh, appeared in cities across the Middle East and became important social centers.
+
+European travelers brought stories of the exotic "wine of Araby" back home. Coffee arrived in Venice in 1615, and despite some religious controversy, Pope Clement VIII gave it his blessing. The first European coffee house opened in Oxford, England, in 1650, followed by London establishments that became known as "penny universities" because for a penny, one could buy a cup of coffee and engage in stimulating conversation.
+
+The Dutch began cultivating coffee in their colonies in Indonesia in the 1600s. The French brought coffee to the Caribbean, while the Spanish took it to Central and South America. Brazil, now the world's largest coffee producer, began production in the 1720s.
+
+The coffee industry has evolved dramatically. Instant coffee was invented in 1901 by Japanese scientist Satori Kato. The espresso machine was developed in Italy in 1884. Today, specialty coffee shops and artisan roasting have created a "third wave" of coffee culture, emphasizing bean quality, sustainable farming, and skilled preparation methods.`,
+      questions: [
+        { id: 1, type: 'tf', question: 'Coffee originated in Yemen'},
+        { id: 2, type: 'tf', question: 'Kaldi was a goat herder'},
+        { id: 3, type: 'tf', question: 'The first European coffee house was in London'},
+        { id: 4, type: 'tf', question: 'Instant coffee was invented in the 20th century'},
+        { id: 5, type: 'mcq', question: 'How many cups of coffee are consumed daily worldwide?', options: ['1 billion', '2.25 billion', '3 billion', '5 billion']},
+        { id: 6, type: 'mcq', question: 'Who discovered coffee according to legend?', options: ['Kaldi', 'Pope Clement', 'Satori Kato', 'A Sufi monk']},
+        { id: 7, type: 'mcq', question: 'When did coffee arrive in Venice?', options: ['1615', '1650', '1720', '1884']},
+        { id: 8, type: 'mcq', question: 'What were London coffee houses called?', options: ['Qahveh khaneh', 'Penny universities', 'Coffee clubs', 'Social centers']},
+        { id: 9, type: 'fill', question: 'The largest coffee producer in the world is ___'},
+        { id: 10, type: 'fill', question: 'The espresso machine was developed in ___'},
+        { id: 11, type: 'mcq', question: 'Who invented instant coffee?', options: ['Italian inventor', 'Satori Kato', 'Dutch trader', 'Brazilian farmer']},
+        { id: 12, type: 'fill', question: 'Sufi monks drank coffee during ___ sessions'},
+        { id: 13, type: 'tf', question: 'The Dutch cultivated coffee in Indonesia'},
+      ]
+    },
+    {
+      id: 2,
+      title: 'Passage 2: Artificial Intelligence in Healthcare',
+      content: `Artificial Intelligence (AI) is revolutionizing healthcare delivery and medical research. Machine learning algorithms can now analyze medical images with accuracy rivaling experienced radiologists, detecting cancers, fractures, and other abnormalities in X-rays, CT scans, and MRIs.
+
+One significant application is in drug discovery. Traditional pharmaceutical development takes 10-15 years and costs billions of dollars. AI can screen millions of compounds in days, identifying promising candidates for further testing. During the COVID-19 pandemic, AI helped researchers understand the virus's protein structure and accelerate vaccine development.
+
+Personalized medicine is another frontier. AI systems analyze genetic data, lifestyle factors, and medical history to predict disease risk and customize treatment plans. IBM's Watson for Oncology reviews medical literature and patient records to recommend evidence-based cancer treatments.
+
+However, challenges remain. AI systems require vast amounts of high-quality data for training, raising privacy concerns. There's also the "black box" problem - even developers sometimes can't explain exactly how AI reaches certain conclusions, making it difficult for doctors to trust and validate recommendations.
+
+Regulatory frameworks are struggling to keep pace. The FDA has approved over 300 AI-powered medical devices, but standards for testing and monitoring these systems are still evolving. Questions about liability when AI makes mistakes remain unresolved.
+
+Despite these hurdles, the potential benefits are enormous. AI could reduce diagnostic errors, which currently affect 12 million Americans annually. It might also address healthcare workforce shortages by automating routine tasks, allowing medical professionals to focus on complex cases and patient interaction.
+
+Looking forward, experts predict AI will become as ubiquitous in medicine as stethoscopes. The key will be maintaining human oversight while leveraging AI's analytical power to improve patient outcomes.`,
+      questions: [
+        { id: 14, type: 'tf', question: 'AI can detect abnormalities in medical images'},
+        { id: 15, type: 'tf', question: 'Traditional drug development takes 5-7 years'},
+        { id: 16, type: 'tf', question: 'The FDA has approved over 300 AI medical devices'},
+        { id: 17, type: 'tf', question: 'AI systems never make mistakes'},
+        { id: 18, type: 'mcq', question: 'How many Americans are affected by diagnostic errors annually?', options: ['5 million', '8 million', '12 million', '20 million']},
+        { id: 19, type: 'mcq', question: "What is IBM's AI system for oncology called?", options: ['Watson', 'DeepMind', 'AlphaFold', 'CureAI']},
+        { id: 20, type: 'mcq', question: 'What is the "black box" problem?', options: ['Data storage', 'Unexplainable conclusions', 'High costs', 'Privacy issues']},
+        { id: 21, type: 'fill', question: 'AI helped accelerate development of ___ vaccines'},
+        { id: 22, type: 'fill', question: 'Traditional drug development costs ___ of dollars'},
+        { id: 23, type: 'mcq', question: 'What does AI analyze for personalized medicine?', options: ['Only genetics', 'Only lifestyle', 'Only medical history', 'Genetic data, lifestyle, and medical history']},
+        { id: 24, type: 'tf', question: 'Regulatory frameworks have kept pace with AI development'},
+        { id: 25, type: 'fill', question: 'AI can screen millions of ___ in days'},
+        { id: 26, type: 'mcq', question: 'What major challenge does AI face in healthcare?', options: ['Cost only', 'Privacy concerns', 'Lack of interest', 'Too slow']},
+      ]
+    },
+    {
+      id: 3,
+      title: 'Passage 3: The Psychology of Decision-Making',
+      content: `Human decision-making is far more complex than simple logical reasoning. Behavioral economics research has revealed numerous cognitive biases that influence our choices, often unconsciously. Understanding these biases is crucial for making better decisions in personal life, business, and policy-making.
+
+The availability heuristic causes people to overestimate the likelihood of events that come easily to mind. After seeing news reports about plane crashes, many people overestimate aviation risks despite flying being statistically very safe. This bias affects everything from insurance purchases to career choices.
+
+Confirmation bias leads us to seek information that confirms existing beliefs while ignoring contradictory evidence. Investors might focus on positive news about stocks they own while dismissing warning signs. In medicine, doctors might pursue diagnoses that match initial impressions rather than considering alternatives.
+
+Loss aversion, identified by Nobel laureate Daniel Kahneman, shows that losses hurt approximately twice as much as equivalent gains feel good. This explains why people hold losing stocks too long, hoping to avoid realizing losses, or why free trial offers are so effective - canceling feels like losing something even though you never paid for it.
+
+The anchoring effect demonstrates how initial information disproportionately influences decisions. Real estate agents know that showing an overpriced house first makes subsequent properties seem more reasonable. Retailers use "original prices" as anchors to make sale prices appear more attractive.
+
+Decision fatigue occurs when making many choices depletes mental resources. Studies show judges grant parole more frequently early in the day and after breaks, when mental energy is highest. This has implications for important decisions - making them when tired often leads to choosing the easiest option rather than the best one.
+
+The paradox of choice suggests that while some options are good, too many can be paralyzing. Psychologist Barry Schwartz found that consumers presented with 24 jam varieties were less likely to purchase than those shown only 6 options. The abundance of choices creates anxiety and regret.
+
+Nudge theory, developed by Richard Thaler, applies these insights to influence behavior positively. Making organ donation the default option (requiring people to opt-out rather than opt-in) has dramatically increased donor registration in several countries. Similarly, automatic enrollment in retirement savings plans, with an option to opt-out, significantly boosts participation.
+
+Understanding decision-making psychology empowers us to design better choice architectures - systems that help people make decisions serving their long-term interests. From government policy to user interface design, these principles are increasingly recognized as essential tools for improving human welfare.
+
+However, this knowledge raises ethical questions. When does helping people make better choices cross into manipulation? As our understanding deepens, establishing ethical guidelines for applying behavioral insights becomes increasingly important.`,
+      questions: [
+        { id: 27, type: 'tf', question: 'The availability heuristic affects how we estimate event likelihood'},
+        { id: 28, type: 'tf', question: 'Losses and gains affect us equally according to research'},
+        { id: 29, type: 'tf', question: 'Decision fatigue occurs in the morning'},
+        { id: 30, type: 'tf', question: 'Too many choices can be paralyzing'},
+        { id: 31, type: 'mcq', question: 'Who identified loss aversion?', options: ['Richard Thaler', 'Daniel Kahneman', 'Barry Schwartz', 'Adam Smith']},
+        { id: 32, type: 'mcq', question: 'How much more do losses hurt compared to equivalent gains?', options: ['Same', 'Twice as much', 'Three times', 'Half as much']},
+        { id: 33, type: 'mcq', question: 'Who developed nudge theory?', options: ['Daniel Kahneman', 'Barry Schwartz', 'Richard Thaler', 'Sigmund Freud']},
+        { id: 34, type: 'fill', question: 'Confirmation bias leads us to seek information that ___ existing beliefs'},
+        { id: 35, type: 'fill', question: 'The ___ effect shows how initial information influences decisions'},
+        { id: 36, type: 'mcq', question: 'In the jam study, how many options led to more purchases?', options: ['6', '12', '24', '48']},
+        { id: 37, type: 'tf', question: 'Automatic enrollment increases retirement savings participation'},
+        { id: 38, type: 'mcq', question: 'When do judges grant parole more frequently?', options: ['Late afternoon', 'Early day and after breaks', 'Evening', 'Randomly']},
+        { id: 39, type: 'fill', question: 'Choice architecture helps people make decisions serving their ___ interests'},
+        { id: 40, type: 'tf', question: 'There are no ethical concerns about applying behavioral insights'},
+      ]
+    }
+  ]
+};

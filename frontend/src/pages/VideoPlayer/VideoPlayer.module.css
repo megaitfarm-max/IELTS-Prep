@@ -1,0 +1,302 @@
+.videoPlayerPage {
+  min-height: 100vh;
+  background: var(--background);
+  padding: var(--space-6) var(--space-4);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.backButton {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  background: var(--surface);
+  border: none;
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: var(--space-4);
+  transition: background 0.3s ease;
+}
+
+.backButton:hover {
+  background: var(--surface-hover);
+}
+
+.playerContainer {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: var(--space-6);
+}
+
+.videoWrapper {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+  background: #000;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.lockedOverlay {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.95));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+}
+
+.lockIcon {
+  font-size: 48px;
+  margin-bottom: var(--space-4);
+}
+
+.unlockMessage {
+  text-align: center;
+  color: white;
+  padding: 0 var(--space-4);
+}
+
+.unlockMessage h3 {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  margin-bottom: var(--space-2);
+}
+
+.unlockMessage p {
+  font-size: var(--text-lg);
+  opacity: 0.9;
+  margin-bottom: var(--space-4);
+}
+
+.unlockButton {
+  padding: var(--space-3) var(--space-6);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 24px;
+  font-size: var(--text-lg);
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.unlockButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
+.videoInfo {
+  padding: var(--space-6);
+}
+
+.videoHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.videoTitle {
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.completedBadge {
+  padding: var(--space-2) var(--space-4);
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  border-radius: 20px;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  white-space: nowrap;
+}
+
+.tags {
+  display: flex;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 6px 16px;
+  background: var(--surface);
+  border-radius: 16px;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.videoDescription {
+  font-size: var(--text-lg);
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--space-6);
+}
+
+.progressSection {
+  padding: var(--space-4);
+  background: var(--surface);
+  border-radius: 12px;
+}
+
+.progressHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-2);
+}
+
+.progressLabel {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.progressPercentage {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: var(--text-lg);
+}
+
+.progressBar {
+  height: 8px;
+  background: rgba(102, 126, 234, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.5s ease;
+}
+
+.recommendations {
+  background: white;
+  border-radius: 16px;
+  padding: var(--space-6);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.recommendations h2 {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  margin-bottom: var(--space-4);
+  color: var(--text-primary);
+}
+
+.recommendationsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-4);
+}
+
+.recommendationCard {
+  background: var(--surface);
+  border-radius: 12px;
+  padding: var(--space-4);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recommendationCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.recommendationCard h3 {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--space-2);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.recommendationCard p {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .videoPlayerPage {
+    padding: var(--space-4) var(--space-2);
+  }
+
+  .videoTitle {
+    font-size: var(--text-xl);
+  }
+
+  .videoHeader {
+    flex-direction: column;
+  }
+
+  .recommendationsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 590px) {
+  .videoPlayerPage {
+    padding: var(--space-2);
+  }
+  
+  .videoContainer {
+    margin-bottom: var(--space-3);
+  }
+  
+  .videoTitle {
+    font-size: var(--text-lg);
+  }
+  
+  .videoMeta {
+    font-size: var(--text-xs);
+    flex-wrap: wrap;
+  }
+  
+  .videoDescription {
+    padding: var(--space-3);
+  }
+  
+  .recommendationsSection {
+    padding: var(--space-3);
+  }
+  
+  .recommendationsGrid {
+    gap: var(--space-2);
+  }
+}

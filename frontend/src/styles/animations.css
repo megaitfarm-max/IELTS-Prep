@@ -1,0 +1,162 @@
+/* Fade In */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slide Up */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Slide Down */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Scale Bounce */
+@keyframes scaleBounce {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Pulse */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Spin */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Shimmer (loading effect) */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+/* Shake */
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+
+/* Celebration */
+@keyframes celebrate {
+  0% {
+    transform: scale(0) rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2) rotate(180deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+    opacity: 1;
+  }
+}
+
+/* Progress bar fill */
+@keyframes progressFill {
+  from {
+    width: 0%;
+  }
+}
+
+/* Utility classes */
+.animate-fadeIn {
+  animation: fadeIn var(--transition-base);
+}
+
+.animate-slideUp {
+  animation: slideUp var(--transition-slow);
+}
+
+.animate-slideDown {
+  animation: slideDown var(--transition-slow);
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+.animate-celebrate {
+  animation: celebrate var(--transition-slower);
+}
+
+/* Hover lift effect */
+.hover-lift {
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Hover scale */
+.hover-scale {
+  transition: transform var(--transition-base);
+}
+
+.hover-scale:hover {
+  transform: scale(1.02);
+}
+
+/* Smooth transitions */
+.transition-all {
+  transition: all var(--transition-base);
+}
+
+.transition-colors {
+  transition: color var(--transition-base), background-color var(--transition-base), border-color var(--transition-base);
+}

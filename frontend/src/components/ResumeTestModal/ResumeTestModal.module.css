@@ -1,0 +1,215 @@
+/* Resume Test Modal Styles */
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  padding: 20px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modalContent {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  width: 100%;
+  animation: slideUp 0.4s ease;
+  overflow: hidden;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modalHeader {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+.modalHeader .icon {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 15px;
+  animation: bounce 0.6s ease;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.modalHeader h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.modalBody {
+  padding: 30px;
+}
+
+.mainText {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.progressInfo {
+  background: #f7fafc;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px solid #e2e8f0;
+}
+
+.progressItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.progressItem:last-child {
+  border-bottom: none;
+}
+
+.progressItem .label {
+  color: #718096;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.progressItem .value {
+  color: #2d3748;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.subText {
+  text-align: center;
+  color: #718096;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.modalActions {
+  display: flex;
+  gap: 12px;
+  padding: 0 30px 30px;
+}
+
+.button {
+  flex: 1;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+.primaryButton {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.primaryButton:hover {
+  background: linear-gradient(135deg, #5568d3 0%, #63408b 100%);
+}
+
+.secondaryButton {
+  background: white;
+  color: #667eea;
+  border: 2px solid #667eea;
+}
+
+.secondaryButton:hover {
+  background: #f7fafc;
+  border-color: #5568d3;
+  color: #5568d3;
+}
+
+.buttonIcon {
+  font-size: 18px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .modalContent {
+    margin: 20px;
+    max-width: 100%;
+  }
+  
+  .modalHeader {
+    padding: 25px 20px;
+  }
+  
+  .modalHeader h2 {
+    font-size: 24px;
+  }
+  
+  .modalHeader .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .modalBody {
+    padding: 25px 20px;
+  }
+  
+  .mainText {
+    font-size: 16px;
+  }
+  
+  .modalActions {
+    flex-direction: column;
+    padding: 0 20px 25px;
+  }
+  
+  .button {
+    width: 100%;
+  }
+}

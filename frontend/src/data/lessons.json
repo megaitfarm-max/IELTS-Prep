@@ -1,0 +1,508 @@
+{
+  "reading": [
+    {
+      "id": "reading-1",
+      "title": "Introduction to IELTS Reading",
+      "duration": 30,
+      "difficulty": "Beginner",
+      "description": "Learn about the IELTS Reading test format, question types, and scoring system.",
+      "objectives": [
+        "Understand the IELTS Reading test structure",
+        "Learn about the three sections and their difficulty levels",
+        "Familiarize yourself with question types",
+        "Learn effective time management strategies"
+      ],
+      "content": {
+        "introduction": "The IELTS Academic Reading test consists of three sections with a total of 40 questions. You have 60 minutes to complete all sections. The passages increase in difficulty from Section 1 to Section 3.",
+        "sections": [
+          {
+            "title": "Test Format Overview",
+            "content": "The Reading test contains three long texts which range from descriptive and factual to discursive and analytical. These are taken from books, journals, magazines, and newspapers. They have been selected for a non-specialist audience but are appropriate for people entering university courses or seeking professional registration."
+          },
+          {
+            "title": "Section Breakdown",
+            "content": "**Section 1**: Generally easier text, often descriptive or narrative\n\n**Section 2**: Intermediate difficulty, may include work-related topics\n\n**Section 3**: Most challenging, usually academic or specialized topics\n\nEach section contains approximately 13-14 questions."
+          },
+          {
+            "title": "Question Types",
+            "content": "You'll encounter various question types:\n\n• Multiple choice questions\n• Identifying information (True/False/Not Given)\n• Identifying writer's views (Yes/No/Not Given)\n• Matching information\n• Matching headings\n• Matching features\n• Matching sentence endings\n• Sentence completion\n• Summary completion\n• Note completion\n• Table completion\n• Flow-chart completion\n• Diagram label completion\n• Short-answer questions"
+          },
+          {
+            "title": "Scoring System",
+            "content": "Your raw score (number of correct answers out of 40) is converted to the IELTS 9-band scale:\n\n• Band 9: 39-40 correct answers\n• Band 8.5: 37-38\n• Band 8: 35-36\n• Band 7.5: 33-34\n• Band 7: 30-32\n• Band 6.5: 27-29\n• Band 6: 23-26\n• Band 5.5: 19-22\n• Band 5: 15-18"
+          },
+          {
+            "title": "Time Management Tips",
+            "content": "• Spend approximately 20 minutes on each passage\n• Don't spend too long on one question - move on and return later\n• Read the questions before reading the passage\n• Underline key words in questions\n• Transfer answers to the answer sheet at the end (leave 2-3 minutes)"
+          }
+        ],
+        "keyTakeaways": [
+          "60 minutes for 40 questions across 3 passages",
+          "Passages increase in difficulty",
+          "14 different question types to master",
+          "Time management is crucial - allocate 20 minutes per passage",
+          "Read questions first, then scan for answers"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "quiz",
+          "question": "How much time do you have to complete the IELTS Reading test?",
+          "options": ["45 minutes", "60 minutes", "75 minutes", "90 minutes"],
+          "correctAnswer": 1
+        },
+        {
+          "type": "quiz",
+          "question": "How many passages are there in the Reading test?",
+          "options": ["2", "3", "4", "5"],
+          "correctAnswer": 1
+        },
+        {
+          "type": "quiz",
+          "question": "Which section is typically the most difficult?",
+          "options": ["Section 1", "Section 2", "Section 3", "They're all equal"],
+          "correctAnswer": 2
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "title": "Skimming and Scanning Techniques",
+      "duration": 45,
+      "difficulty": "Beginner",
+      "description": "Master essential reading strategies to quickly locate information and understand main ideas.",
+      "objectives": [
+        "Differentiate between skimming and scanning",
+        "Practice skimming for main ideas",
+        "Practice scanning for specific information",
+        "Apply these techniques to IELTS passages"
+      ],
+      "content": {
+        "introduction": "Skimming and scanning are two essential speed-reading techniques that will help you manage the IELTS Reading test's time constraints effectively.",
+        "sections": [
+          {
+            "title": "What is Skimming?",
+            "content": "Skimming is reading quickly to get the general idea or gist of a text. When skimming:\n\n• Read the title and any headings\n• Look at the first and last paragraphs\n• Read the first sentence of each paragraph\n• Notice words in bold or italics\n• Look at any images, charts, or diagrams\n• Don't read every word - your goal is to understand the overall topic"
+          },
+          {
+            "title": "What is Scanning?",
+            "content": "Scanning is looking quickly through text to find specific information. When scanning:\n\n• Know what you're looking for (key words from the question)\n• Move your eyes quickly over the text\n• Don't read every word - look for specific information\n• Use your finger or pen to guide your eyes\n• Stop when you find the information you need\n• Look for synonyms and paraphrases of key words"
+          },
+          {
+            "title": "When to Use Each Technique",
+            "content": "**Use Skimming**:\n• When you first encounter a passage (spend 2-3 minutes)\n• For matching headings questions\n• To understand the overall structure\n• To identify the main topic of each paragraph\n\n**Use Scanning**:\n• For specific detail questions\n• For name, date, or number-based questions\n• For True/False/Not Given questions\n• For gap-fill questions\n• When you know exactly what information you need"
+          },
+          {
+            "title": "Practice Strategy",
+            "content": "**Step 1**: Skim the passage (2 minutes)\n• Understand the topic\n• Note paragraph themes\n\n**Step 2**: Read the questions (2 minutes)\n• Underline key words\n• Note question types\n\n**Step 3**: Scan for answers (16 minutes)\n• Match key words to passage\n• Read context around key words\n• Choose/write answers"
+          }
+        ],
+        "practicePassage": {
+          "title": "The History of Coffee",
+          "text": "Coffee is one of the world's most popular beverages, with an estimated 2.25 billion cups consumed every day. The origin of coffee can be traced back to the ancient coffee forests of Ethiopia. Legend has it that a goat herder named Kaldi first discovered the potential of these beans when he noticed that after eating the berries from a certain tree, his goats became so energetic that they did not want to sleep at night.\n\nKaldi reported his findings to the abbot of a local monastery, who made a drink with the berries and found that it kept him alert through the long hours of evening prayer. The abbot shared his discovery with the other monks at the monastery, and knowledge of the energizing berries began to spread.\n\nBy the 15th century, coffee was being grown in the Yemeni district of Arabia and by the 16th century it was known in Persia, Egypt, Syria, and Turkey. Coffee was not only enjoyed in homes, but also in the many public coffee houses that began to appear in cities across the Near East.\n\nCoffee houses quickly became popular centers for social activity and communication. People frequented coffee houses to listen to music, watch performers, play chess and keep current on the news. Coffee houses became such an important center for the exchange of information that they were often referred to as \"Schools of the Wise.\"\n\nWith thousands of pilgrims visiting the holy city of Mecca each year from all over the world, knowledge of this \"wine of Araby\" began to spread. European travelers to the Near East brought back stories of an unusual dark black beverage. By the 17th century, coffee had made its way to Europe and was becoming popular across the continent."
+        },
+        "keyTakeaways": [
+          "Skimming = getting the general idea quickly",
+          "Scanning = finding specific information",
+          "Always skim first to understand the passage structure",
+          "Use key words from questions to scan effectively",
+          "Look for synonyms and paraphrases, not exact matches"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "skimming",
+          "instruction": "Skim the passage about coffee in 30 seconds. What is the main topic?",
+          "question": "What is the passage mainly about?",
+          "options": [
+            "How to make coffee",
+            "The history and spread of coffee",
+            "Coffee houses in Europe",
+            "Ethiopian legends"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "type": "scanning",
+          "instruction": "Scan the passage to find specific information.",
+          "question": "In which century did coffee reach Europe?",
+          "options": ["15th century", "16th century", "17th century", "18th century"],
+          "correctAnswer": 2
+        },
+        {
+          "type": "scanning",
+          "instruction": "Scan for a specific detail.",
+          "question": "What were coffee houses sometimes called?",
+          "options": [
+            "Houses of Wisdom",
+            "Schools of the Wise",
+            "Centers of Learning",
+            "Arabian Schools"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "reading-3",
+      "title": "Multiple Choice Questions",
+      "duration": 40,
+      "difficulty": "Intermediate",
+      "description": "Learn strategies to tackle multiple choice questions effectively and avoid common traps.",
+      "objectives": [
+        "Understand MCQ format variations in IELTS",
+        "Learn to identify distractors",
+        "Practice elimination techniques",
+        "Avoid common mistakes"
+      ],
+      "content": {
+        "introduction": "Multiple Choice Questions (MCQs) are a common question type in IELTS Reading. They test your ability to understand specific details, main ideas, writer's opinions, and inference.",
+        "sections": [
+          {
+            "title": "Types of MCQs in IELTS",
+            "content": "**Type 1**: Choose one correct answer from four options (A, B, C, D)\n\n**Type 2**: Choose two correct answers from five options (A-E)\n\n**Type 3**: Choose three correct answers from seven options (A-G)\n\nMost questions will be Type 1, where you select a single correct answer."
+          },
+          {
+            "title": "Common MCQ Focuses",
+            "content": "MCQs in IELTS Reading typically test:\n\n• **Specific details**: Names, dates, places, numbers\n• **Main ideas**: Overall topic or theme of a paragraph\n• **Writer's purpose**: Why the author wrote something\n• **Writer's opinion**: What the author thinks or feels\n• **Inference**: Conclusions drawn from the information"
+          },
+          {
+            "title": "Understanding Distractors",
+            "content": "Distractors are incorrect options designed to trick you:\n\n• **Similar words**: Use words from the passage but in wrong context\n• **Opposite meaning**: State the opposite of what the passage says\n• **Not mentioned**: Information that seems logical but isn't in the passage\n• **Partial truth**: Includes some correct information but with crucial errors\n• **Wrong paragraph**: Information from a different part of the text"
+          },
+          {
+            "title": "Effective Strategy",
+            "content": "**Before reading the passage**:\n1. Read the question carefully\n2. Underline key words\n3. Read all options quickly\n\n**While finding the answer**:\n1. Locate the relevant part of the passage\n2. Read carefully around that section\n3. Look for paraphrasing (synonyms/different words)\n4. Don't expect exact word matches\n\n**Choosing the answer**:\n1. Eliminate obviously wrong answers\n2. Compare remaining options with the passage\n3. Choose the one that matches the passage meaning\n4. Don't overthink or add your own knowledge"
+          },
+          {
+            "title": "Common Mistakes to Avoid",
+            "content": "❌ **Choosing based on word matching alone** - Options often use different words with the same meaning\n\n❌ **Overthinking** - The answer is in the passage; don't add outside knowledge\n\n❌ **Not reading all options** - Sometimes option D is the best answer\n\n❌ **Rushing** - MCQs require careful reading of both question and options\n\n❌ **Leaving answers blank** - Always guess if unsure; there's no penalty for wrong answers"
+          }
+        ],
+        "keyTakeaways": [
+          "Read the question and all options carefully",
+          "Look for paraphrasing, not exact word matches",
+          "Use elimination to narrow down options",
+          "Be aware of distractor techniques",
+          "Always answer - no penalty for guessing"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "passage": "Solar panels, also known as photovoltaic cells, convert sunlight directly into electricity. The technology has existed since the 1950s, but recent advances in manufacturing have dramatically reduced costs, making solar power increasingly competitive with fossil fuels. In 2023, solar power generation increased by 23% globally, with China, the United States, and India leading the expansion.",
+          "question": "According to the passage, what has made solar power more competitive recently?",
+          "options": [
+            "The discovery of photovoltaic cells",
+            "Increased sunlight availability",
+            "Reductions in manufacturing costs",
+            "Government regulations on fossil fuels"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The passage states 'recent advances in manufacturing have dramatically reduced costs, making solar power increasingly competitive.' Option C correctly paraphrases this."
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "id": "listening-1",
+      "title": "IELTS Listening Format Overview",
+      "duration": 25,
+      "difficulty": "Beginner",
+      "description": "Understand the structure and format of the IELTS Listening test.",
+      "objectives": [
+        "Learn about the four sections of the Listening test",
+        "Understand different accent variations",
+        "Familiarize yourself with question types",
+        "Learn test-taking strategies"
+      ],
+      "content": {
+        "introduction": "The IELTS Listening test lasts approximately 30 minutes (plus 10 minutes to transfer answers). You will listen to four recordings and answer 40 questions. Each recording is played only once.",
+        "sections": [
+          {
+            "title": "Test Structure",
+            "content": "The test consists of four sections:\n\n**Section 1**: A conversation between two people in an everyday social context (e.g., booking accommodation)\n\n**Section 2**: A monologue in an everyday social context (e.g., a speech about local facilities)\n\n**Section 3**: A conversation between up to four people in an educational or training context (e.g., a university tutor and students discussing an assignment)\n\n**Section 4**: A monologue on an academic subject (e.g., a university lecture)\n\nDifficulty increases from Section 1 to Section 4."
+          },
+          {
+            "title": "Question Types",
+            "content": "You'll encounter various question formats:\n\n• Multiple choice\n• Matching\n• Plan/map/diagram labeling\n• Form/note/table/flow-chart/summary completion\n• Sentence completion\n\nEach recording is approximately 10 minutes long, with questions divided across the recording."
+          },
+          {
+            "title": "Accents and Voices",
+            "content": "IELTS uses a variety of English accents including:\n\n• British\n• Australian\n• New Zealand\n• American\n• Canadian\n\nYou may hear both male and female voices. It's important to practice with different accents."
+          },
+          {
+            "title": "Scoring",
+            "content": "Like the Reading test, Listening is scored out of 40:\n\n• Band 9: 39-40 correct\n• Band 8.5: 37-38\n• Band 8: 35-36\n• Band 7.5: 32-34\n• Band 7: 30-31\n• Band 6.5: 26-29\n• Band 6: 23-25\n• Band 5.5: 18-22\n\nSpelling and grammar must be correct for your answer to be marked right."
+          },
+          {
+            "title": "Key Strategies",
+            "content": "✓ **Read ahead**: Use the time before each section to read questions\n\n✓ **Underline key words**: Focus your listening on important information\n\n✓ **Listen for synonyms**: The recording often paraphrases the question\n\n✓ **Don't panic if you miss something**: Move on to the next question\n\n✓ **Check spelling**: Common words must be spelled correctly\n\n✓ **Follow word limits**: If it says \"NO MORE THAN TWO WORDS,\" don't write three\n\n✓ **Use the transfer time**: Check your answers when transferring to the answer sheet"
+          }
+        ],
+        "keyTakeaways": [
+          "Four sections with increasing difficulty",
+          "You hear each recording only once",
+          "Multiple accents are used",
+          "Read questions during preparation time",
+          "Spelling and grammar matter"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "quiz",
+          "question": "How many times do you hear each recording in the IELTS Listening test?",
+          "options": ["Once", "Twice", "Three times", "As many times as needed"],
+          "correctAnswer": 0
+        },
+        {
+          "type": "quiz",
+          "question": "Which section typically features an academic lecture?",
+          "options": ["Section 1", "Section 2", "Section 3", "Section 4"],
+          "correctAnswer": 3
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "writing-1",
+      "title": "Writing Task 1: Introduction",
+      "duration": 30,
+      "difficulty": "Beginner",
+      "description": "Learn the fundamentals of IELTS Writing Task 1 and how to describe visual information.",
+      "objectives": [
+        "Understand Task 1 requirements",
+        "Learn the structure of a Task 1 response",
+        "Identify key features in visual data",
+        "Practice writing introductions"
+      ],
+      "content": {
+        "introduction": "IELTS Writing Task 1 requires you to describe, summarize, or explain visual information in at least 150 words within 20 minutes. You'll see graphs, charts, tables, diagrams, or maps.",
+        "sections": [
+          {
+            "title": "Task 1 Requirements",
+            "content": "You must:\n\n• Write at least 150 words (aim for 170-180)\n• Spend approximately 20 minutes\n• Describe the main features\n• Make comparisons where relevant\n• Don't give opinions - only report facts\n• Use formal, academic language"
+          },
+          {
+            "title": "Types of Visual Information",
+            "content": "**Graphs**:\n• Line graphs (trends over time)\n• Bar charts (comparisons between categories)\n• Pie charts (proportions of a whole)\n\n**Tables**: Data organized in rows and columns\n\n**Diagrams**: Processes or how something works\n\n**Maps**: Changes to a location over time"
+          },
+          {
+            "title": "Response Structure",
+            "content": "**Introduction** (1 sentence):\nParaphrase the question - describe what the visual shows\n\n**Overview** (2-3 sentences):\nSummarize the main trends, differences, or stages\n\n**Body Paragraph 1** (3-4 sentences):\nDescribe specific details, data, or features\n\n**Body Paragraph 2** (3-4 sentences):\nDescribe more specific details or make comparisons"
+          },
+          {
+            "title": "Writing the Introduction",
+            "content": "The introduction should paraphrase the task description. Use synonyms:\n\n**Task**: \"The graph below shows the number of tourists visiting a city between 2010 and 2020.\"\n\n**Introduction**: \"The line graph illustrates how many visitors traveled to a particular city over a ten-year period from 2010 to 2020.\"\n\nCommon paraphrases:\n• shows → illustrates, displays, demonstrates, depicts\n• graph → chart, diagram\n• number of → quantity of, amount of"
+          },
+          {
+            "title": "Writing the Overview",
+            "content": "The overview is crucial - it shows you can identify main trends:\n\n**Good overview**: \"Overall, tourist numbers increased significantly during the period, with the most dramatic rise occurring between 2015 and 2017. Additionally, there was a slight decline in the final year.\"\n\n**Poor overview**: \"In 2010, there were 50,000 tourists.\" ❌ (This is specific detail, not an overview)\n\nStart your overview with:\n• Overall, ...\n• In general, ...\n• It is clear that ...\n• What stands out is that ..."
+          },
+          {
+            "title": "Useful Vocabulary",
+            "content": "**Describing trends**:\n• Increase: rise, grow, climb, surge, jump\n• Decrease: fall, drop, decline, decrease, plummet\n• No change: remain stable, stay constant, level off\n• Fluctuate: vary, oscillate\n\n**Describing degree**:\n• Significant: considerable, substantial, dramatic\n• Small: slight, modest, marginal\n• Rapid: sharp, steep, sudden\n• Gradual: steady, gentle, slow"
+          }
+        ],
+        "keyTakeaways": [
+          "Task 1 = describe visual information objectively",
+          "Always include: Introduction, Overview, Body Paragraphs",
+          "The overview is the most important part",
+          "Use a variety of vocabulary to describe trends",
+          "No opinions - just report the data"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "paraphrase",
+          "instruction": "Paraphrase this Task 1 prompt:",
+          "prompt": "The chart below shows the percentage of households with internet access in five European countries between 2000 and 2020.",
+          "sampleAnswer": "The bar chart illustrates the proportion of homes with internet connectivity in five European nations over a twenty-year period from 2000 to 2020."
+        }
+      ]
+    },
+    {
+      "id": "writing-2",
+      "title": "Describing Graphs and Charts",
+      "duration": 60,
+      "difficulty": "Beginner",
+      "description": "Master the language and techniques for describing line graphs, bar charts, and pie charts.",
+      "objectives": [
+        "Describe trends in line graphs",
+        "Compare data in bar charts",
+        "Describe proportions in pie charts",
+        "Use appropriate vocabulary and grammar"
+      ],
+      "content": {
+        "introduction": "Different types of graphs require different approaches and vocabulary. This lesson covers the three most common types.",
+        "sections": [
+          {
+            "title": "Line Graphs: Describing Trends",
+            "content": "Line graphs show changes over time. Focus on:\n\n**Starting point**: \"In 2000, sales stood at 50 million dollars.\"\n\n**Trends**: \"Sales increased steadily between 2000 and 2010.\"\n\n**Peaks and troughs**: \"Sales peaked at 150 million in 2015 before falling to 120 million in 2018.\"\n\n**End point**: \"By 2020, sales had recovered to 140 million.\"\n\n**Comparing lines**: \"While Company A's sales rose, Company B's declined.\""
+          },
+          {
+            "title": "Grammar for Trends",
+            "content": "Use different structures:\n\n**Subject + verb + adverb**:\n\"Sales increased dramatically.\"\n\n**There + was/were + adjective + noun**:\n\"There was a dramatic increase in sales.\"\n\n**Subject + experienced/saw + noun**:\n\"The company saw a dramatic increase in sales.\"\n\n**Time expressions**:\n• Between 2000 and 2010\n• From 2000 to 2010\n• During the period\n• Over the ten-year period\n• In the final year"
+          },
+          {
+            "title": "Bar Charts: Making Comparisons",
+            "content": "Bar charts compare different categories. Use:\n\n**Superlatives**: \"China had the highest GDP, while Luxembourg had the lowest.\"\n\n**Comparatives**: \"The USA's GDP was higher than Japan's.\"\n\n**Approximations**: \"India's GDP was approximately 2.5 trillion dollars.\"\n\n**Multiples**: \"China's GDP was twice as high as India's.\"\n\n**Differences**: \"There was a 500 billion dollar difference between the USA and China.\""
+          },
+          {
+            "title": "Pie Charts: Describing Proportions",
+            "content": "Pie charts show parts of a whole. Use:\n\n**Fractions**:\n• Nearly/almost half (48-52%)\n• Over/more than half (51-65%)\n• About/approximately a third (30-35%)\n• About a quarter (23-27%)\n\n**Percentages**: \"Transport accounted for 35% of spending.\"\n\n**Comparisons**: \"Housing represented the largest proportion at 40%, while entertainment made up the smallest share at just 5%.\"\n\n**Rankings**: \"The second largest category was...\""
+          },
+          {
+            "title": "Practice Example - Line Graph",
+            "content": "**Task**: The graph shows population growth in three cities from 1990 to 2020.\n\n**Model Answer Introduction**:\n\"The line graph illustrates how the populations of three different cities changed over a thirty-year period from 1990 to 2020.\"\n\n**Model Answer Overview**:\n\"Overall, all three cities experienced population growth during this period, although the rate of increase varied considerably. City A showed the most dramatic rise, while City C's growth was more modest.\""
+          }
+        ],
+        "keyTakeaways": [
+          "Line graphs = describe trends over time",
+          "Bar charts = make comparisons between categories",
+          "Pie charts = describe proportions and shares",
+          "Vary your sentence structures",
+          "Use approximations - don't include every number"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "writing",
+          "instruction": "Complete this sentence about a line graph showing increasing sales:",
+          "prompt": "Between 2010 and 2015, sales _____ from 50 million to 80 million.",
+          "sampleAnswers": ["rose steadily", "increased gradually", "grew consistently", "climbed progressively"]
+        }
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "speaking-1",
+      "title": "Speaking Test Format",
+      "duration": 20,
+      "difficulty": "Beginner",
+      "description": "Understand the structure of the IELTS Speaking test and what examiners look for.",
+      "objectives": [
+        "Learn about the three parts of the Speaking test",
+        "Understand assessment criteria",
+        "Learn what examiners evaluate",
+        "Know what to expect on test day"
+      ],
+      "content": {
+        "introduction": "The IELTS Speaking test is a face-to-face interview with a certified examiner that lasts 11-14 minutes. It's recorded for quality control purposes.",
+        "sections": [
+          {
+            "title": "Test Structure",
+            "content": "**Part 1: Introduction and Interview (4-5 minutes)**\n• Examiner introduces themselves and confirms your identity\n• Questions about familiar topics: home, family, work, studies, interests\n• Short, direct answers are fine (2-3 sentences)\n\n**Part 2: Individual Long Turn (3-4 minutes)**\n• You receive a topic card\n• 1 minute preparation time\n• Speak for 1-2 minutes on the topic\n• Examiner may ask 1-2 follow-up questions\n\n**Part 3: Two-way Discussion (4-5 minutes)**\n• Questions related to Part 2 topic but more abstract\n• Discussion of broader issues and concepts\n• Longer, more developed answers expected"
+          },
+          {
+            "title": "Assessment Criteria",
+            "content": "You're marked on four criteria, each worth 25% of your score:\n\n**Fluency and Coherence**:\n• Speak without long pauses\n• Connect ideas logically\n• Use discourse markers (however, moreover, etc.)\n\n**Lexical Resource**:\n• Range of vocabulary\n• Accuracy in word choice\n• Use of idiomatic language\n\n**Grammatical Range and Accuracy**:\n• Variety of sentence structures\n• Correct use of grammar\n• Error-free complex sentences\n\n**Pronunciation**:\n• Clear and understandable\n• Natural stress and intonation\n• Correct individual sounds"
+          },
+          {
+            "title": "What Examiners Listen For",
+            "content": "✓ **Natural speech**: Speak at a normal pace, don't memorize answers\n\n✓ **Developed answers**: Don't just say yes/no, explain and give examples\n\n✓ **Relevant responses**: Answer the question asked, stay on topic\n\n✓ **Self-correction**: It's okay to correct yourself if you make a mistake\n\n✓ **Range**: Show variety in vocabulary and grammar\n\n✗ **Memorized speeches**: Examiners can tell and will interrupt\n\n✗ **One-word answers**: You need to demonstrate your English ability\n\n✗ **Long silence**: Better to say something than nothing"
+          },
+          {
+            "title": "Test Day Tips",
+            "content": "**Before the test**:\n• Arrive 30 minutes early\n• Bring your ID (passport)\n• You won't be allowed to bring notes or dictionaries\n\n**During the test**:\n• Greet the examiner politely\n• Speak clearly - don't whisper or shout\n• If you don't understand, ask for clarification\n• Don't worry about accent - all accents are acceptable\n• Make eye contact and smile\n\n**After the test**:\n• You can't request your recording\n• Results available after 13 days"
+          },
+          {
+            "title": "Common Mistakes",
+            "content": "❌ **Memorizing answers**: Examiners will change the question or interrupt\n\n❌ **Speaking too fast**: Slow down - fluency isn't about speed\n\n❌ **Using difficult words incorrectly**: Use words you know well\n\n❌ **Repeating the question**: Wastes time and doesn't show ability\n\n❌ **Being too nervous**: Remember, the examiner wants you to do well"
+          }
+        ],
+        "keyTakeaways": [
+          "Three parts: Introduction, Long Turn, Discussion",
+          "Lasts 11-14 minutes total",
+          "Assessed on fluency, vocabulary, grammar, pronunciation",
+          "Speak naturally - don't memorize",
+          "Give developed answers with examples"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "quiz",
+          "question": "How long do you have to speak in Part 2?",
+          "options": ["30 seconds to 1 minute", "1-2 minutes", "3-4 minutes", "As long as you want"],
+          "correctAnswer": 1
+        },
+        {
+          "type": "quiz",
+          "question": "Which criterion is NOT used to assess your speaking?",
+          "options": ["Fluency and Coherence", "Vocabulary", "Handwriting", "Pronunciation"],
+          "correctAnswer": 2
+        }
+      ]
+    },
+    {
+      "id": "speaking-2",
+      "title": "Part 1: Introduction & Interview",
+      "duration": 40,
+      "difficulty": "Beginner",
+      "description": "Master Part 1 questions about familiar topics and daily life.",
+      "objectives": [
+        "Learn common Part 1 topics",
+        "Practice giving extended but concise answers",
+        "Use appropriate vocabulary for everyday topics",
+        "Sound natural and fluent"
+      ],
+      "content": {
+        "introduction": "Part 1 lasts 4-5 minutes and covers familiar topics. The examiner asks about you, your life, and your interests. Answers should be 2-3 sentences (about 20-30 seconds per answer).",
+        "sections": [
+          {
+            "title": "Common Part 1 Topics",
+            "content": "**Personal Information**:\n• Name, hometown, accommodation\n• Work or studies\n• Family\n\n**Daily Life**:\n• Daily routine\n• Food and cooking\n• Transportation\n• Shopping\n\n**Interests and Hobbies**:\n• Sports and exercise\n• Music and entertainment\n• Reading\n• Travel\n\n**Technology and Media**:\n• Internet usage\n• Social media\n• Mobile phones\n• TV and films"
+          },
+          {
+            "title": "Answer Structure",
+            "content": "A good Part 1 answer has three components:\n\n**1. Direct answer**: Answer the question immediately\n\n**2. Extend**: Add detail, explanation, or example\n\n**3. Personal comment** (optional): Add your opinion or feeling\n\n**Example**:\nQ: \"Do you like reading?\"\n\n✓ **Good answer**: \"Yes, I do. I especially enjoy reading novels in my free time because they help me relax. My favorite genre is science fiction.\"\n\n✗ **Too short**: \"Yes, I like reading.\" (Only 4 words)\n\n✗ **Too long**: \"Yes, I love reading. I usually read before bed. I started reading when I was five years old. My mother gave me my first book...\" (Too much detail)"
+          },
+          {
+            "title": "Useful Phrases",
+            "content": "**Giving opinions**:\n• I'm a big fan of...\n• I'm really into...\n• I'm not very keen on...\n• I can't stand...\n\n**Frequency**:\n• I usually/normally/generally...\n• I often/frequently...\n• From time to time...\n• Once in a while...\n• I hardly ever...\n\n**Reasons**:\n• The main reason is...\n• This is because...\n• I suppose it's because...\n\n**Examples**:\n• For example, ...\n• For instance, ...\n• Such as...\n• Like..."
+          },
+          {
+            "title": "Sample Questions and Answers",
+            "content": "**Q: Where are you from?**\n\"I'm from Tokyo, which is the capital of Japan. It's a bustling city with over 13 million people, and I've lived there all my life.\"\n\n**Q: Do you work or are you a student?**\n\"I'm currently a university student. I'm studying computer science at Tokyo University, and I'm in my third year now.\"\n\n**Q: Do you enjoy cooking?**\n\"Not particularly, to be honest. I usually eat out or order food delivery because I find cooking quite time-consuming. However, I do occasionally make simple dishes on weekends.\"\n\n**Q: What kind of music do you like?**\n\"I'm really into pop music, especially K-pop. I find the melodies catchy and the choreography impressive. I often listen to music while commuting to university.\""
+          },
+          {
+            "title": "Tips for Success",
+            "content": "✓ **Answer immediately**: Don't take long pauses to think\n\n✓ **Be natural**: Speak as you would in a conversation\n\n✓ **Use contractions**: I'm, don't, it's (sounds more natural)\n\n✓ **Vary your language**: Don't repeat the same adjectives (good, nice, interesting)\n\n✓ **Stay relevant**: Don't go off-topic\n\n✗ **Don't memorize**: Answers should sound spontaneous\n\n✗ **Don't give one-word answers**: You need to demonstrate ability\n\n✗ **Don't speak for too long**: Keep answers concise (20-30 seconds)"
+          }
+        ],
+        "keyTakeaways": [
+          "Part 1 = familiar topics about you and your life",
+          "Answer structure: Direct answer + Extend + Personal comment",
+          "2-3 sentences per answer (20-30 seconds)",
+          "Sound natural - use contractions and everyday language",
+          "Don't memorize - speak spontaneously"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "speaking-practice",
+          "category": "Hometown",
+          "questions": [
+            "Where are you from?",
+            "Do you like your hometown?",
+            "What do you like most about your hometown?",
+            "Has your hometown changed much in recent years?"
+          ]
+        },
+        {
+          "type": "speaking-practice",
+          "category": "Hobbies",
+          "questions": [
+            "What do you like to do in your free time?",
+            "Do you prefer indoor or outdoor activities?",
+            "Did you have any hobbies when you were a child?",
+            "Do you think hobbies are important?"
+          ]
+        }
+      ]
+    }
+  ]
+}

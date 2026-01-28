@@ -1,0 +1,54 @@
+# .env files
+.env
+.env.local
+.env.*.local
+frontend/.env
+backend/.env
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/__pycache__/
+backend/.venv/
+backend/venv/
+backend/*.egg-info/
+sample
+
+# Build outputs
+frontend/dist/
+frontend/build/
+backend/uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# AI Models
+models/
+*.gguf
+
+# Docker
+.docker/
+
+# OS
+Thumbs.db
+.DS_Store
